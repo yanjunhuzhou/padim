@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:padding="3dip" android:layout_height="fill_parent">
+
+	<Button android:layout_width="0dip" android:layout_height="fill_parent"
+		android:gravity="center" android:layout_marginRight="4dip"
+		android:text="@string/accept_tt" android:layout_weight="1"
+		android:id="@+id/receive_talk_tt_okbtn" />
+	<Button android:layout_width="0dip" android:layout_height="fill_parent"
+		android:text="@string/accept_ysq" android:layout_weight="1"
+		android:gravity="center" android:layout_marginRight="4dip"
+		android:id="@+id/receive_talk_ysq_okbtn" />
+	<Button android:layout_width="0dip" android:layout_height="fill_parent"
+		android:text="关闭" android:layout_weight="1"
+		android:gravity="center" android:id="@+id/receive_talk_cancel" />
+</LinearLayout>

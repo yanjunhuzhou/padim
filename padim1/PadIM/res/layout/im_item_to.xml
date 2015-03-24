@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:duplicateParentState="true" 
+	android:focusable="false"
+	android:clickable="false" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView android:id="@+id/comment_time" android:text="--"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="right" android:paddingRight="18.0dip"
+		android:textSize="20sp"
+		android:paddingBottom="5.0dip" style="@style/time_style"
+		android:clickable="false">
+	</TextView> 
+	<RelativeLayout android:id="@+id/comment_layout"
+		android:layout_below="@id/comment_time"
+	    android:paddingRight="10.0dip"
+		android:paddingBottom="10.0dip" 
+		android:duplicateParentState="true"
+		android:focusable="false"
+		android:clickable="false"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<com.example.padim.widget.BiaoQingTextView
+			android:id="@+id/comment_content" 
+			android:text="--" 
+			android:autoLink="web"
+			android:gravity="center_vertical" 
+			style="@style/topic_content_style"
+			android:duplicateParentState="true" android:focusable="false"
+			android:clickable="false" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:lineSpacingMultiplier="1.1" android:maxEms="12"
+			android:textAppearance="?android:textAppearanceLarge"
+			android:textSize="20.0sp" android:textColor="@color/black_75_transparent"
+			android:background="@drawable/sms_out_normal_bg"
+			>
+		</com.example.padim.widget.BiaoQingTextView>
+		<TextView android:id="@+id/comment_state_tv"
+			android:textSize="20.0sp" android:textStyle="bold" android:focusable="false"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="3.0dip" android:layout_centerVertical="true"
+			android:layout_toLeftOf="@id/comment_content" 
+			android:clickable="false"/>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+/**设备列表配置文件，格式遵循ip=xxx;mac=xxx;name=xxx;sex=。每条记录占一行。以"/**"开头为注释，系统读取后自动跳过**/
+ip=192.168.1.8;mac=A3:55:F9:A8:BD:CF;name=Jim;sex=male
+ip=192.168.1.9;mac=A3:55:B9:A8:AB:CF;name=Tom;sex=female

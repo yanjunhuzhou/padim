@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/person_chart_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/expand_list_child_color"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_actionbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/chatViewBody"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/chart_msg_scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:id="@+id/chart_msg_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+        </ScrollView>
+    </LinearLayout>
+    <!-- 底部按钮 -->
+
+    <include layout="@layout/include_guba_im_footer" />
+
+</LinearLayout>

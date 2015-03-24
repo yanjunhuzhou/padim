@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@color/expand_list_group_color"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="fill_parent" android:padding="3dip"
+		android:layout_height="wrap_content" android:textColor="@color/black"
+		android:textSize="20sp" android:gravity="center" android:id="@+id/file_select_title" />
+	<!-- 显示当前路径 -->
+	<TextView android:id="@+id/mPath" android:layout_width="fill_parent"
+		android:padding="5dip" android:layout_height="wrap_content"
+		android:textSize="16sp" android:textColor="@color/black" />
+
+	<!-- 上边按钮 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:padding="8dip" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:layout_marginRight="10dip" android:background="@drawable/login_button_bg"
+			android:text="根目录" android:id="@+id/return_root_path" />
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="上一级" android:background="@drawable/login_button_bg"
+			android:id="@+id/return_parent_path" />
+	</LinearLayout>
+
+	<!-- 文件列表 -->
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:cacheColorHint="#00000000" android:layout_height="0dip"
+		android:layout_weight="1">
+	</ListView>
+
+	<!-- 底部按钮 -->
+	<LinearLayout android:gravity="center" android:padding="8dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:id="@+id/buttonConfirm" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:layout_marginRight="10dip" android:background="@drawable/login_button_bg"
+			android:text="确定" />
+		<Button android:id="@+id/buttonCancle" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:background="@drawable/login_button_bg" android:text="取消" />
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button style="@style/longclickitemstyle" android:text="@string/send_msg"
+				android:id="@+id/long_send_msg" android:drawableLeft="@drawable/ic_menu_start_conversation" />
+			<TextView style="@style/user_info_divid"
+				android:layout_width="fill_parent" android:layout_height="0.5dip">
+			</TextView>
+			<Button style="@style/longclickitemstyle" android:text="@string/send_file"
+				android:id="@+id/long_send_file" android:drawableLeft="@drawable/ic_menu_upload" />
+			<TextView style="@style/user_info_divid"
+				android:layout_width="fill_parent" android:layout_height="0.5dip">
+			</TextView>
+			<Button style="@style/longclickitemstyle" android:text="@string/call_label1"
+				android:id="@+id/long_click_call_tt" android:drawableLeft="@drawable/ic_menu_call" />
+			<TextView style="@style/user_info_divid"
+				android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<Button style="@style/longclickitemstyle" android:text="@string/call_label2"
+				android:id="@+id/long_click_call_ysq" android:drawableLeft="@drawable/ic_menu_call" />
+			<TextView style="@style/user_info_divid"
+				android:layout_width="fill_parent" android:layout_height="0.5dip">
+			</TextView>
+			<Button style="@style/longclickitemstyle" android:text="@string/cancel"
+				android:id="@+id/long_click_cancel" android:drawableLeft="@drawable/ic_menu_close_clear_cancel" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" 
+	android:orientation="horizontal" 
+	android:background="@drawable/smiley_item_bg_xml" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" 
+    	android:layout_height="fill_parent" 
+    	android:layout_weight="1.0" />
+    <ImageView android:id="@+id/item_image" 
+    	android:layout_width="32.0dip" 
+    	android:layout_height="32.0dip" 
+    	android:layout_marginTop="5.0dip" 
+    	android:layout_marginBottom="5.0dip" 
+    	android:layout_centerHorizontal="true" />
+    <View android:layout_width="0.0dip" 
+    	android:layout_height="fill_parent" 
+    	android:layout_weight="1.0" />
+</LinearLayout>

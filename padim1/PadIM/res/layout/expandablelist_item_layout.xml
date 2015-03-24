@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:gravity="center_vertical"
+	android:padding="3dip" android:layout_width="fill_parent"
+	android:background="@drawable/expand_groupitem_bg"
+	android:layout_height="wrap_content">
+
+	<ImageView android:layout_width="wrap_content"
+		android:layout_marginLeft="15dip" android:layout_marginRight="5dip"
+		android:layout_height="wrap_content" android:id="@+id/expand_icon" />
+
+
+	<TextView android:id="@+id/group_name" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="@color/black"
+		android:textSize="18sp" android:padding="3dip" />
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="@color/search_hint"
+		android:textSize="16sp" android:padding="3dip" android:id="@+id/current_person_amount" />
+</LinearLayout>

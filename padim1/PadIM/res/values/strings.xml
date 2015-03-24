@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSDDC-IM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello  world!</string>
+    <string name="fragment_one">联系人</string>
+    <string name="fragment_two">历史消息</string>
+    <string name="press_talk">按住说话</string>
+    <string name="normal_finish">松开结束</string>
+    <string name="start_talk">请开始说话</string>
+    <string name="short_time">按键时间太短</string>
+    <string name="edit_message">请输入消息</string>
+    <string name="talk_with">正在与[%1$s]进行语音通话</string>
+    <string name="accept_tt">接收\n(听筒模式)</string>
+    <string name="accept_ysq">接收\n(扬声器)</string>
+    <string name="accept">接收</string>
+    <string name="refuse">拒绝</string>
+    <string name="select_file_for_send">选择要发送的文件</string>
+    <string name="select_path_for_save">选择用来接收文件的文件夹</string>
+    <string name="data_receive_error">数据接收错误</string>
+    <string name="current_path_label">当前路径: </string>
+    <string name="init_msg_count">未读:%1$d条</string>
+    <string name="send_msg">发送信息</string>
+    <string name="pls_select_opr">请选择要进行的操作</string>
+    <string name="call_label1">语音呼叫(听筒模式)</string>
+    <string name="call_label2">语音呼叫(扬声器模式)</string>
+    <string name="send">发送</string>
+    <string name="file">文件</string>
+    <string name="cancel">取消</string>
+    <string name="send_file">发送文件</string>
+    <string name="chat_msg_back">返回</string>
+    <string name="login_out_groupTalk">退出群组</string>
+    <string name="close">关闭</string>
+    <string name="name1">name1</string>
+    <string name="name2">name2</string>
+    <string name="str_press_to_talk">按住语音留言</string>
+    <string name="str_picture_collection">图库</string>
+    <string name="str_take_picture">拍照</string>
+    <string name="str_insert">插入</string>
+    <string name="content_is_empty">内容为空不能发送!</string> 
+    <string name="start_to_send_file">正在发送文件</string>
+    <string name="remote_talk_closed">对方已关闭语音通话</string>
+    <string name="sending_file_to_you">正在给您发送文件!</string>
+    <string name="refuse_receive_file">对方拒绝接收文件</string>
+    <string name="file_send_success">文件发送成功！</string>
+    <string name="file_receive_success">文件接收成功！</string>
+    <string name="folder_can_not_write">文件夹不可写，无法保存文件！</string>
+
+</resources>

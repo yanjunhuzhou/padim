@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_dialog"
+    android:layout_width="280dp"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:layout_gravity="center"
+    android:background="@drawable/backgroud01"
+    >
+    
+     <TextView 
+    	android:id="@+id/mintext"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="4dp" 
+		android:padding="5dp" 
+		android:textColor="#333" 
+		android:textSize="20sp" 
+		android:text="特殊消息"
+	 /> 
+    
+    <Button 
+		android:id="@+id/exitBtn" 
+		android:layout_width="110dp" 
+		android:layout_height="wrap_content" 
+		android:text="好了" 
+		android:textSize="16sp" 
+		android:textColor="#fff"  
+		android:gravity="center" 
+    />
+	
+    
+</LinearLayout>

@@ -1,0 +1,129 @@
+<resources>
+
+    <style name="MyWidget" parent="@android:style/Theme" />
+
+    <style name="MyWidget.TabText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tab_indicator_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <!-- Common list view styles -->
+    <style name="MyWidget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:cacheColorHint">#00ffffff</item>
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+
+    <!-- 聊天界面 -->
+
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#808080</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">#FFEBCD</item>
+    </style>
+
+    <style name="chat_text_time_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#808080</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="checkbox_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+     
+    </style>
+
+    
+    
+    	<style name="topic_content_style">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+
+	<style name="mini_avatar">
+		<item name="android:adjustViewBounds">true</item>
+		<item name="android:scaleType">centerInside</item>
+		<item name="android:layout_marginRight">5.0dip</item>
+		<item name="android:layout_marginLeft">5.0dip</item>
+		<item name="android:layout_width">46.0dip</item>
+		<item name="android:layout_height">46.0dip</item>
+	</style>
+	<style name="topic_username_style">
+		<item name="android:textSize">12.0sp</item> 
+	</style>
+	<style name="topic_time_style">
+		<item name="android:textSize">12.0sp</item>
+		<item name="android:textColor">@color/code_color</item>
+	</style>
+	<style name="time_style">
+		<item name="android:textSize">10.0sp</item>
+		<item name="android:textColor">@color/code_color</item>
+	</style>
+	<!-- 弹出表情窗口动画 -->
+	<style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_exit</item>
+	</style>
+
+	<style name="user_info_divid">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">0.5dip</item>
+		<item name="android:background">@color/guba_list_divider_color</item>
+	</style>
+
+	<style name="user_info_label">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">@color/code_color</item>
+	</style>
+
+	<style name="user_info_tv">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+
+	<style name="WindowTitleBackground"> 
+	</style>
+
+	<style name="longclickitemstyle">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:padding">12dip</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:background">@drawable/expand_childitem_bg</item>
+	</style>
+	
+	<style name="Theme.Transparent" parent="@android:style/Theme.Dialog">  
+ 
+		<item name="android:windowIsTranslucent">true</item>  
+		<item name="android:windowBackground">@android:color/transparent</item>  
+		<item name="android:windowContentOverlay">@null</item>  
+		<item name="android:windowNoTitle">true</item>  
+		<item name="android:windowIsFloating">true</item>  
+		<item name="android:backgroundDimEnabled">true</item>  
+  
+	</style>
+
+</resources>

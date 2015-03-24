@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/checked_pic"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/pic_online_male"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/checked_name"
+        style="@style/chat_text_name_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="null" />
+
+</LinearLayout>

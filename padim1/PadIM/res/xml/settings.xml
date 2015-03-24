@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="管理员设置" >
+        <EditTextPreference
+            android:key="username"
+            android:summary="设置我的用户名"
+            android:title="设置用户名" />
+        
+    </PreferenceCategory>
+<!--     
+    <PreferenceCategory android:title="下载路径">
+        <EditTextPreference 
+            android:key="downloadPath"
+            android:summary="设置我的下载文件路径"
+            android:title="设置文件路径"/>
+    </PreferenceCategory>
+-->     
+   <PreferenceScreen
+       android:title="返回">
+       <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.example.padim"
+            android:targetClass="com.example.padim.MainActivity" />
+   </PreferenceScreen>
+    
+</PreferenceScreen>
